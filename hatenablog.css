@@ -1,0 +1,113 @@
+/* <system section="theme" selected="report"> */
+@import "/css/theme/report/report.css";
+/* </system> */
+
+/* <system section="background" selected="9FD6D2"> */
+body {
+  background: #963;
+  font-family: 'Lucida Grande', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+#globalheader-container{
+  position: fixed;
+  background: #333;
+  color: #FFF;
+  border: #FFF;
+}
+
+#blog-title a {
+  font-size: 2em;
+}
+
+#blog-description {
+  font-size: 0.9em;
+}
+
+#container {
+  width: 1075px;
+  margin: auto;
+}
+
+#wrapper {
+  width: 1070px;
+  float: none;
+}
+
+#box2 {
+  width: 970px;
+  float: none;
+  margin: 0 auto;
+  padding: 50px;
+  border-top: 1px solid #CCC;
+}
+
+.entry-date {
+  font-size: 1.1em;
+}
+
+.entry-title a {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  font-size: 2em;
+  border-left: 10px solid #630;
+  border-bottom: 2px dotted #630 ;
+}
+
+.entry-categories {
+  font-size: 1.1em;
+}
+
+.entry-content {
+  font-size: 1.1em;
+}
+
+.entry-content pre {
+  font-size: 90%;
+}
+
+.entry-content h2 {
+  font-size: 1.25em;
+}
+
+.entry-content h3 {
+  font-size: 1.00em;
+}
+
+.hatena-module {
+  width: 450px;
+}
+
+.hatena-module-profile {
+  float: left;
+}
+
+.hatena-module-recent-entries {
+  float: right;
+}
+
+.hatena-module-category {
+  float: right;
+}
+
+.hatena-module-archive{
+  float: left;
+}
+
+.hatena-module-search-box {
+  float: left;
+}
+
+#footer {
+  background: #963;
+  color: #CCC;
+}
+
+#footer a {
+  color: #CCC;
+}
+
+#footer a:hover {
+  color: #FFF;
+}
+/* </system> */
