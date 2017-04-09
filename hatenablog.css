@@ -5,7 +5,7 @@
 /* <system section="background" selected="9FD6D2"> */
 body {
   background: #963;
-  font-family: 'Lucida Grande', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 #globalheader-container{
@@ -86,8 +86,12 @@ body {
   float: right;
 }
 
-.hatena-module-category {
+.hatena-module-entries-access-ranking {
   float: right;
+}
+
+.hatena-module-category {
+  float: left;
 }
 
 .hatena-module-archive{
@@ -95,7 +99,7 @@ body {
 }
 
 .hatena-module-search-box {
-  float: left;
+  float: right;
 }
 
 #footer {
